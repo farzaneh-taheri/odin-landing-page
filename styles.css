@@ -1,0 +1,171 @@
+/* تنظیمات کلی صفحه */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* استایل هدر */
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* بخش Hero */
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #d1d5db;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    background-color: #6B7280;  /* می‌تونید این رو به یک تصویر واقعی تغییر بدید */
+    width: 400px;
+    height: 300px; /* تنظیم ارتفاع */
+    background-size: cover;  /* برای جلوگیری از کشیدگی تصویر */
+    background-position: center;
+}
+
+
+/* بخش اطلاعات */
+.info {
+    text-align: center;
+    padding: 20px;
+}
+
+.info h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* فاصله بین کارت‌ها */
+    flex-wrap: wrap; /* اگر فضای کافی نبود، کارت‌ها به خط بعدی منتقل می‌شوند */
+}
+
+
+.card {
+    flex: 1 1 calc(25% - 20px); /* عرض کارت‌ها را به صورت پویا تنظیم می‌کند */
+    padding: 20px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* فاصله بین کارت‌ها در صورت انتقال به خط بعدی */
+}
+
+
+/* بخش نقل قول */
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 15%;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.quote cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+/* بخش CTA */
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.cta h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    margin-bottom: 15px;
+}
+
+.cta button {
+    background-color: white;
+    color: #3882F6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* استایل فوتر */
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
